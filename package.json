@@ -4,6 +4,8 @@
   "description": "{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}",
   "main": "main.js",
   "scripts": {
+    "prd": "pm2 start main.js --name '种水果-任务辅助脚本'",
+    "restart-prd": "pm2 restart main.js --name '种水果-任务辅助脚本'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
