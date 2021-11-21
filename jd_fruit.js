@@ -931,7 +931,7 @@ module.exports = function() {
   }
 
   function sleep(response) {
-    console.log('休息一下');
+    console.log('休息一下，', new Date().toLocaleString());
     setTimeout(() => {
       console.log('休息结束');
       Task.next(response)
